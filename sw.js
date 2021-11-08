@@ -45,7 +45,7 @@ self.addEventListener('activate', function (event) {
    * TODO - Part 2 Step 3
    * Create a function as outlined above, it should be one line
    */
-   let cacheAllowlist = ['recipe-cache'];
+   let cacheAllowlist = [CHACHE_NAME];
 
    event.waitUntil(
      caches.keys().then(function(cacheNames) {
