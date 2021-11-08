@@ -12,6 +12,7 @@ self.addEventListener('install', function (event) {
   let CACHE_NAME = 'recipe-cache';
   let urlsToCache = [
     '/index.html',
+    'favicon.ico',
     '/assets/scripts/main.js',
     '/assets/scripts/Router.js',
     '/assets/components/RecipeCard.js',
@@ -23,7 +24,7 @@ self.addEventListener('install', function (event) {
     '/assets/images/icons/4-star.svg',
     '/assets/images/icons/5-star.svg',
     '/assets/images/icons/arrow-down.png',
-    '/styles/main.css'
+    '/assets/styles/main.css'
   ];
   event.waitUntil(
     caches.open(CACHE_NAME)
