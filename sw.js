@@ -11,7 +11,7 @@ self.addEventListener('install', function (event) {
    */
   let urlsToCache = [
     '/index.html',
-    '/favicon.ico',
+    '/Lab7_Starter/favicon.ico',
     '/assets/scripts/main.js',
     '/assets/scripts/Router.js',
     '/assets/components/RecipeCard.js',
