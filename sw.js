@@ -12,7 +12,7 @@ self.addEventListener('install', function (event) {
   let CACHE_NAME = 'recipe-cache';
   let urlsToCache = [
     '/index.html',
-    'favicon.ico',
+    '/favicon.ico',
     '/assets/scripts/main.js',
     '/assets/scripts/Router.js',
     '/assets/components/RecipeCard.js',
