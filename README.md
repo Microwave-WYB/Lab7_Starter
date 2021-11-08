@@ -1,3 +1,2 @@
 # Lab 7 - Starter Code
-https://microwave-wyb.github.io/Lab7_Starter/  
-You will notice some bug in the console because the browser is looking for `https://microwave-wyb.github.io/sw.js` and `https://microwave-wyb.github.io/favicon.ico` but the files are not there at all. The right file location should be https://microwave-wyb.github.io/Lab7_Starter/sw.js and https://microwave-wyb.github.io/Lab7_Starter/favicon.ico. I spent 5 hours trying to fix this bug but could not even find the cause of the errors. I posted many questions on slack but never got a single reply. Please look at my code and give partial grade if you think my code make sense. I had no clue how to fix this stupid thing. I even tried to host this website on my own Raspberry Pi home server and I never got this bug. It only occurs when it's on GitHub Page.  
+https://microwave-wyb.github.io/Lab7_Starter/
