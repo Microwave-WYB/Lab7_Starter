@@ -9,7 +9,6 @@ self.addEventListener('install', function (event) {
    * TODO - Part 2 Step 2
    * Create a function as outlined above
    */
-  let CACHE_NAME = 'recipe-cache';
   let urlsToCache = [
     '/index.html',
     '/favicon.ico',
