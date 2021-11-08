@@ -26,6 +26,7 @@ self.addEventListener('install', function (event) {
     '/assets/images/icons/arrow-down.png',
     '/assets/styles/main.css'
   ];
+  console.log(urlsToCache);
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function (cache) {
